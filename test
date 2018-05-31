@@ -1,0 +1,42 @@
+#!/bin/bash
+  
+function man_page ()
+  { # Begin man page
+  cat<< EOF
+  NAME
+       acctpasswd by Clen
+  SYNOPSYS
+       acctpasswd [options] USERNAME
+  DESCRIPTION
+       
+  OPTIONS
+       -a CPANEL_USERNAME
+            Add restrictions to specified USERNAME
+       -r CPANEL_USERNAME
+            Remove restrictions from specified USERNAME
+       -c CPANEL_USERNAME
+            Check for restrictions in place for USERNAME
+       -h
+            Displays this man page.
+  Exiting.
+
+  
+EOF
+} # End man page
+
+
+while getopts ":a:r:c:h*" opt; do
+  case $opt in
+    h) # Begin man page
+      man_page
+      exit 0
+    ;; # End man page
+    *) # Begin incorrect input catch all
+      catchall_run="1"
+      error_check
+      man_page
+      exit 0
+    ;; # End incorrect input catch all
+  esac
+done
+# End main
