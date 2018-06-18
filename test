@@ -42,20 +42,3 @@ done
 # End main
 
 
-https://docs.influxdata.com/influxdb/v1.5/tools/shell/
-https://docs.influxdata.com/influxdb/v1.5/tools/web_admin/
-https://docs.influxdata.com/influxdb/v1.5/about_the_project/releasenotes-changelog/
-https://docs.influxdata.com/influxdb/v1.5/introduction/installation/
-https://www.itsadc.com/super-simple-simon-grafana-setup-part-1-basic-setup/
-http://docs.grafana.org/guides/basic_concepts/
-http://docs.grafana.org/installation/configuration/
-https://www.linuxtechi.com/install-zabbix-3-0-on-centos-7-rhel-7/
-https://www.howtoforge.com/tutorial/install-zabbix-monitoring-server-and-agent-on-debian-9/
-http://docs.grafana.org/installation/debian/#database
-https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=777654
-https://eapyl.github.io/article/InfluxDB-cant-be-started-as-a-service-21-December-2016.html
-https://jansipke.nl/monitoring-hosts-with-collectd-influxdb-and-grafana/
-https://sweetcode.io/getting-started-grafana-influxdb/
-https://wiki.opnfv.org/display/fastpath/Installing+and+configuring+InfluxDB+and+Grafana+to+display+metrics+with+collectd#space-menu-link-content
-https://www.influxdata.com/blog/how-to-use-grafana-with-influxdb-to-monitor-time-series-data/
-http://docs.grafana.org/features/datasources/influxdb/
